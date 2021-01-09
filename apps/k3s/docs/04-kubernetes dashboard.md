@@ -10,7 +10,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.4/a
 
 ## Dashboard RBAC Configuration.
 
-create a YAML file called;
+Create a first YAML file called;
 
 dashboard.admin-user.yml
 ```
@@ -21,6 +21,7 @@ metadata:
   namespace: kubernetes-dashboard
 ```
 
+Create a second YAML file called;
 dashboard.admin-user-role.yml
 ```
 apiVersion: rbac.authorization.k8s.io/v1
