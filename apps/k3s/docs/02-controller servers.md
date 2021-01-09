@@ -1,7 +1,7 @@
 ## k3s servers
 
 Here are the commands used in the demo, On your k3s servers/Control Plane/Master Node run this command
-(note that these have to be run on both controller servers, with a few differences between them):
+(note that these have to be run on both controller servers):
 ```
 export K3S_DATASTORE_ENDPOINT='mysql://username:password@tcp(database_ip_or_hostname:port)/database'
 ```
