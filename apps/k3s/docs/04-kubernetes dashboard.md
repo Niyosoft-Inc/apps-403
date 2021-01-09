@@ -10,7 +10,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.4/a
 
 ## Dashboard RBAC Configuration.
 
-Create a first YAML file called;
+Create a first YAML file for the ServiceAccount;
 
 dashboard.admin-user.yml
 ```
@@ -21,7 +21,7 @@ metadata:
   namespace: kubernetes-dashboard
 ```
 
-Create a second YAML file called;
+Create a second YAML file for the ClusterRoleBinding;
 
 dashboard.admin-user-role.yml
 ```
