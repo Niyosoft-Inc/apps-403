@@ -18,3 +18,14 @@ test with
 ```
 sudo k3s kubectl get nodes
 ```
+---
+## On Agents/Worker nodes
+To run without sudo
+```
+sudo chmod 644 /etc/rancher/k3s/k3s.yaml on the servers
+```
+
+Get tokens
+```
+sudo cat /var/lib/rancher/k3s/server/node-token
+```
