@@ -19,7 +19,7 @@ sudo apt-get upgrade -y
 
 ## Installing NGINX.
 For us to install NGINX, we’re going to need to add an apt repository for it. Thankfully, we can follow the official documentation (http://nginx.org/en/linux_packages.html) for how to do this.
-The first thing that we need to do is download the signing key and add it using apt-key:
+The first thing that we need to do is download the signing key and add it using `apt-key`:
 ```
 curl -o nginx_signing.key http://nginx.org/keys/nginx_signing.key
 ```
@@ -27,7 +27,7 @@ curl -o nginx_signing.key http://nginx.org/keys/nginx_signing.key
 sudo apt-key add nginx_signing.key
 ```
 
-Now that we’ve added the signing key, we can set up the apt repository by appending the following lines to /etc/apt/sources.list:
+Now that we’ve added the signing key, we can set up the apt repository by appending the following lines to `/etc/apt/sources.list`:
 ```
 sudo vim /etc/apt/sources.list
 ```
