@@ -42,6 +42,8 @@ deb-src http://nginx.org/packages/ubuntu/ xenial nginx
 With that file updated, we can install NGINX using apt-get after we update:
 ```
 sudo apt-get update
+```
+```
 sudo apt-get install -y nginx
 ```
 Note: This command will install the “stable” version of NGINX, which might not be the newest version.
