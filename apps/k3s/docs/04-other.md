@@ -4,9 +4,12 @@
 kubeconfig location on server is in this path
 ```
 /etc/rancher/k3s/k3s.yaml
+```
+
+copy the outcome of the contents to your dev machine
+```
 sudo cat /etc/rancher/k3s/k3s.yaml
 ```
-copy the outcome of the contents to your dev machine
 
 Create the file config
 ```
