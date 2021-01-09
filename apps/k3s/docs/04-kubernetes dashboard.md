@@ -22,6 +22,7 @@ metadata:
 ```
 
 Create a second YAML file called;
+
 dashboard.admin-user-role.yml
 ```
 apiVersion: rbac.authorization.k8s.io/v1
