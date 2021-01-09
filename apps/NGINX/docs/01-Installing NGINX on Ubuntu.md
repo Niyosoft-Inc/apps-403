@@ -22,5 +22,35 @@ For us to install NGINX, we’re going to need to add an apt repository for it. 
 The first thing that we need to do is download the signing key and add it using apt-key:
 ```
 curl -o nginx_signing.key http://nginx.org/keys/nginx_signing.key
+```
+```
 sudo apt-key add nginx_signing.key
 ```
+
+Now that we’ve added the signing key, we can set up the apt repository by appending the following lines to /etc/apt/sources.list:
+```
+sudo vim /etc/apt/sources.list
+```
+
+/etc/apt/sources.list (partial)
+```
+## Add official NGINX repository
+deb http://nginx.org/packages/ubuntu/ xenial nginx
+deb-src http://nginx.org/packages/ubuntu/ xenial nginx
+```
+
+With that file updated, we can install NGINX using apt-get after we update:
+```
+sudo apt-get update
+sudo apt-get install -y nginx
+```
+Note: This command will install the “stable” version of NGINX, which might not be the newest version.
+
+## Starting and Enabling NGINX
+Although we’ve installed NGINX, it is not currently running. We’re going to use systemd to run NGINX as a service and set it to start when our server boots up.
+```
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+
+Next, we’ll stop and start the server. Once the reboot has finished, we should be able to visit the server’s IP address in our browser and see the default landing page.
