@@ -12,7 +12,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.4/a
 
 create a YAML file called;
 
-- dashboard.admin-user.yml
+dashboard.admin-user.yml
 ```
 apiVersion: v1
 kind: ServiceAccount
