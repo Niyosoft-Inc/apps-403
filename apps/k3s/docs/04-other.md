@@ -11,7 +11,8 @@ copy the outcome of the contents to your dev machine
 sudo cat /etc/rancher/k3s/k3s.yaml
 ```
 
-Create the file config
+Configuring Kubectl for Remote Access, to manage a remote cluster.
+To do so Create the file config on your dev machine
 ```
 ~/kube/config
 ```
