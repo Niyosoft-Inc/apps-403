@@ -13,5 +13,6 @@ Before we get too far, let’s update the software that’s already installed on
 ```
 sudo apt-get update
 ```
+```
 sudo apt-get upgrade -y
 ```
