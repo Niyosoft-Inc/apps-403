@@ -4,9 +4,9 @@ To start digging into NGINX, we first need a server. In this demo, we’ll set u
 
 Documentation For This demo
 - Official NGINX Installation Documentation can be found here:
-### http://nginx.org/en/linux_packages.html
+  ##### http://nginx.org/en/linux_packages.html
 - systemd
-## https://www.freedesktop.org/wiki/Software/systemd/
+  ##### https://www.freedesktop.org/wiki/Software/systemd/
 
 Update the Server’s Applications
 Before we get too far, let’s update the software that’s already installed on our server (you can skip this if you’d rather not or know that nothing is out of date):
