@@ -39,7 +39,7 @@ deb http://nginx.org/packages/ubuntu/ xenial nginx
 deb-src http://nginx.org/packages/ubuntu/ xenial nginx
 ```
 
-With that file updated, we can install NGINX using apt-get after we update:
+With that file updated, we can install NGINX using `apt-get` after we update:
 ```
 sudo apt-get update
 ```
