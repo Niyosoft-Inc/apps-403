@@ -22,10 +22,16 @@ systemctl enable haproxy
 systemctl start haproxy
 ```
 
-Then verify that incoming port 80 traffic is permitted through the firewall. Running `firewall-cmd --list-all` should show `http` in the list of allowed services.
+Then verify that incoming port 80 traffic is permitted through the firewall.
+Running ```firewall-cmd --list-all``` should show `http` in the list of allowed services.
 
 Configure HAProxy on `Server1`
-We need to configure the HAProxy's frontend and backend. HAProxy should listen on port 80, and use `node1` and `node2` as the backend nodes. Let's edit /etc/haproxy/haproxy.cfg and add the configuration code:
+We need to configure the HAProxy's frontend and backend. HAProxy should listen on port 80, and use `node1` and `node2` as the backend nodes.
+Let's edit :
+```
+/etc/haproxy/haproxy.cfg
+```
+and add the configuration code:
 ```
 
     timeout check            10s
