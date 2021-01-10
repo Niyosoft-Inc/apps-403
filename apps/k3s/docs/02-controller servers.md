@@ -20,9 +20,9 @@ sudo k3s kubectl get nodes
 ```
 ---
 ## On Agents/Worker nodes
-To run without sudo
+To run without sudo, run this on Master servers;
 ```
-sudo chmod 644 /etc/rancher/k3s/k3s.yaml on the servers
+sudo chmod 644 /etc/rancher/k3s/k3s.yaml
 ```
 
 Get tokens
