@@ -1,5 +1,13 @@
 ## Creating a Load Balancer using HAProxy.
 
+Labs Servers name:
+```
+Server1
+Node2
+Node1
+Client1
+```
+
 The Scenario
 A business unit is requesting our assistance in resolving some performance issues. They've had additional application nodes created, but need us to build a load balancer that acts as their front end.
 
