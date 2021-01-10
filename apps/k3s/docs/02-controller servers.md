@@ -20,7 +20,7 @@ sudo k3s kubectl get nodes
 ```
 ---
 
-## On Master servers, in order to run kubectl without sudo, run this on Master servers;
+In order to run kubectl without sudo on Master servers, run this;
 ```
 sudo chmod 644 /etc/rancher/k3s/k3s.yaml
 ```
