@@ -19,8 +19,8 @@ test with
 sudo k3s kubectl get nodes
 ```
 ---
-## On Agents/Worker nodes
-To run without sudo, run this on Master servers;
+
+## On Master servers, in order to run kubectl without sudo, run this on Master servers;
 ```
 sudo chmod 644 /etc/rancher/k3s/k3s.yaml
 ```
