@@ -1,6 +1,6 @@
 ## Creating a Load Balancer using HAProxy.
 
-Labs Servers name:
+Lab Server names:
 ```
 Server1
 Node2
