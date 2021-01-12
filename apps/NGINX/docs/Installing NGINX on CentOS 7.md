@@ -10,5 +10,17 @@ Documentation For This demo
    
 ## Adding the Official NGINX Repository.
 For us to install NGINX using `yum` we will add the official NGINX repository by creating a file at `/etc/yum.repos.d/nginx.repo`:
+```
+sudo vim /etc/yum.repos.d/nginx.repo
+```
 
+`/etc/yum.repos.d/nginx.repo`
+```
+[nginx]
+name=nginx repo
+baseurl=http://nginx.org/packages/centos/7/$basearch/
+gpgcheck=0
+enabled=1
+```
 
+This repo will give us access to the “stable” branch of NGINX to install. If you’d like to install the “mainline” branch of NGINX, change the “baseurl” to “http://nginx.org/packages/mainline/centos/7/$basearch/”. Before we can install, we need to run `yum update`.
