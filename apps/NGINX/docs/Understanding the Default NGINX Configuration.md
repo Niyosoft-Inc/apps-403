@@ -5,6 +5,7 @@ Working with NGINX is all about configuration, and in this video, we’re going 
 Note: the commands in this video are run as the `root user`.
 
 ### Documentation For This demo:
+```
 [user directive](http://nginx.org/en/docs/ngx_core_module.html#user)
 [worker_processes directive](http://nginx.org/en/docs/ngx_core_module.html#worker_processes)
 [error_log directive](http://nginx.org/en/docs/ngx_core_module.html#error_log)
@@ -18,7 +19,7 @@ Note: the commands in this video are run as the `root user`.
 [sendfile directive](http://nginx.org/en/docs/http/ngx_http_core_module.html#sendfile)
 [access_log directive](http://nginx.org/en/docs/http/ngx_http_log_module.html#access_log)
 [keepalive_timeout directive](http://nginx.org/en/docs/http/ngx_http_core_module.html#keepalive_timeout)
-
+```
 
 ## Default NGINX Configuration
 We didn’t need to set up any configuration for NGINX to serve up the default index page. That is because NGINX comes with a default configuration that can be found at `/etc/nginx/nginx.conf`. Most of what we’re going to be doing would require `sudo`, so let’s switch to being the `root` user before we begin:
