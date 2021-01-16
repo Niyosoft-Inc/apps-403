@@ -40,8 +40,8 @@ sudo vim /etc/apt/sources.list
 /etc/apt/sources.list (partial)
 ```
 ## Add official NGINX repository
-deb http://nginx.org/packages/ubuntu/ `codename` nginx
-deb-src http://nginx.org/packages/ubuntu/ xenial nginx
+deb http://nginx.org/packages/ubuntu/ codename nginx
+deb-src http://nginx.org/packages/ubuntu/ codename nginx
 ```
 
 With that file updated, we can install NGINX using `apt-get` after we update:
