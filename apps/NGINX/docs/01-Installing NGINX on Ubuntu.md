@@ -15,6 +15,11 @@ sudo apt-get update
 sudo apt-get upgrade -y
 ```
 
+Let's verify if we have a version of NGINX installed already by default.
+```
+apt-cache show nginx
+```
+
 ## Installing NGINX.
 
 For us to install NGINX, we’re going to need to add an apt repository for it.\
@@ -35,7 +40,7 @@ sudo vim /etc/apt/sources.list
 /etc/apt/sources.list (partial)
 ```
 ## Add official NGINX repository
-deb http://nginx.org/packages/ubuntu/ xenial nginx
+deb http://nginx.org/packages/ubuntu/ `codename` nginx
 deb-src http://nginx.org/packages/ubuntu/ xenial nginx
 ```
 
