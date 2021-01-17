@@ -1,7 +1,7 @@
 ## To install kubectl see this link here:
 ### https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
-kubeconfig location on server is in this path
+kubeconfig location is on Master server in this path;
 ```
 /etc/rancher/k3s/k3s.yaml
 ```
