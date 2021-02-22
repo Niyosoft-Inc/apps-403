@@ -29,10 +29,17 @@ Add man to the front of the whoami command, and run it again.
 ```
 man whoami
 ```
-`man ls`
-`man pwd`
-`man last`
-`man uptime`
+```
+man ls
+```
+```
+man pwd
+```
+```
+man last
+```
+```
+man uptime
 ```
 
 Press `q` to exit the man page.
