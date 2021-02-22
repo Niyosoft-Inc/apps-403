@@ -1,9 +1,11 @@
 ## LPI Linux
 
 Run Some Commands
+
 Run the following commands and note their output:
 ```
 whoami
+```
 ```
 ls
 ```
@@ -13,9 +15,12 @@ Note: files have been added to the instance so you can see sample output.
 ```
 pwd
 ```
+```
 last
 ```
+```
 uptime
+```
 ```
 htop
 ```
