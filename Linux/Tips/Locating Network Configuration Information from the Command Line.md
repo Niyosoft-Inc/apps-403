@@ -1,7 +1,8 @@
 ## Locating Network Configuration Information from the Command Line
 
 ### Determine the IP Address
-List the current working directory.
+
+1. List the current working directory.
 ```
 pwd
 ```
