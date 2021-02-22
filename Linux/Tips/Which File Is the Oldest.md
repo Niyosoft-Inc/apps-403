@@ -46,7 +46,7 @@ ls -lS ~/Practice/Test/var/log/
 ```
 
 
-### Determine When the File `~/Practice/Test/sos_commands/networking/netstat_-W_-neopa` Was Last Modified
+### Determine When the File ```~/Practice/Test/sos_commands/networking/netstat_-W_-neopa``` Was Last Modified
 Run the following command:
 ls -l ~/Practice/Test/sos_commands/networking/netstat_-W_-neopa
 
