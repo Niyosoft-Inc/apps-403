@@ -1,6 +1,6 @@
 Command Line Basics
 
-Determine the Current Working Directory
+## Determine the Current Working Directory
 
 Use the following command to determine the current working directory:
 ```
@@ -15,12 +15,14 @@ Verify that we are now in the /home/cloud_user directory.
 pwd
 ```
 
-Determine Which Users Are Currently on the System and the Last Users to Log In
+
+## Determine Which Users Are Currently on the System and the Last Users to Log In
 
 Determine if any other users are currently logged in to the system.
 ```
 w
 ```
+
 Determine which users last logged in to the system and when the system was last booted.
 ```
 last
