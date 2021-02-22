@@ -3,21 +3,27 @@
 Run Some Commands
 Run the following commands and note their output:
 ```
-`whoami`
-`ls`
+whoami
+```
+ls
 ```
 
 Note: files have been added to the instance so you can see sample output.
+
 ```
-`pwd`
-`last`
-`uptime`
-`htop`
+pwd
+```
+last
+```
+uptime
+```
+htop
 ```
 
 Add man to the front of the whoami command, and run it again.
 ```
-`man whoami`
+man whoami
+```
 `man ls`
 `man pwd`
 `man last`
