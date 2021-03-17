@@ -71,7 +71,7 @@ Move the VM to the New Subnet
   15. Select the Command Prompt desktop app.
   16. Attempt to ping `subnet2`:
 
-`ping 10.0.1.4`
+```ping 10.0.1.4```
 
 We'll see a message saying `Request timed out`. This means the communication is blocked, so we were successful in our lab objectives.
 
